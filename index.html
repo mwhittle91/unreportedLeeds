@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Unreported - Leeds</title>
+
+		<link rel="stylesheet" type="text/css" href="CSS/layout.css">
+		<script src="js/mapSetup.js"></script>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+		<script
+		  src="https://maps.googleapis.com/maps/api/js?callback=initMap&signed_in=true&key=AIzaSyDs7yyvzUBMF7vDv0Vl0YeDamXKrdNFA14" async defer>
+		</script>
+
+	</head>
+	<body onload = 'initMap()'>
+
+	<DIV id = 'header'> 
+		<H1> Unreported Leeds </H1> 
+	</Div> 
+
+	<DIV id = 'sidebar'>
+		<h2> 
+		Introduction
+		</h2>
+		<p> 
+		Nascetur facilisi molestie, semper cum habitasse arcu ultricies nec etiam iaculis aptent primis. Sit lacus pulvinar egestas lorem lorem aptent sagittis ullamcorper vitae neque montes tempus montes luctus arcu quam tellus Libero quam inceptos scelerisque, ligula Vitae pellentesque porttitor mi cras ridiculus molestie. Viverra, morbi lobortis consequat erat venenatis Bibendum dignissim pharetra convallis erat maecenas sollicitudin tellus lobortis turpis. Orci ultrices gravida quam. Penatibus lacus curae;. Curabitur. Nullam. Magna, vestibulum curabitur auctor auctor suspendisse. Iaculis ridiculus inceptos commodo. Mattis rutrum potenti. Hendrerit nec Nonummy cum nascetur. Condimentum lacus urna aliquam enim turpis integer risus dictumst pulvinar tristique consectetuer lobortis nec morbi. Mattis orci. Gravida nulla arcu. Ut sociosqu convallis donec dignissim. Et. Augue. Orci nisi convallis, fringilla dapibus semper tempor aliquam ante orci id rutrum ligula parturient litora euismod laoreet fringilla nullam ante praesent facilisi id lectus facilisi, per metus. Commodo turpis odio nisi mollis sem et dolor eros. Inceptos dignissim, vehicula ante inceptos nisi et lobortis accumsan. Litora et. Morbi habitant, hac rhoncus pharetra. Vitae hac massa imperdiet. Inceptos. Dictum, nec proin dui litora semper varius velit congue magnis auctor varius euismod tristique blandit semper mollis, eget.
+		</p>
+		<button type="button" ID = "instructions" >Click Here for Instructions</button>
+	</DIV>
+	
+	<DIV id = "instructions_text"> 
+		<H1> Instructions </H1>
+		<UL>
+			<LI> To input a location please DOUBLE click on the map - you must zoom in to a sufficient level in order to bring up the form. This is to ensure that the data submit is as accurate as possible. </LI>
+			<LI> Explanation of data 
+				<UL style= "margin-left: 50px;">
+					<LI> Participant ID - this can be found in your confirmation email. This is required for the data process aspect of the study. </LI>
+					<LI> Type - this is the type of hazard that you experienced </LI>
+					<LI> Date - The date the incident took place or issue was first witnessed </LI>
+					<LI> Time - An estimate of the time the incident took place or was first witnessed </LI>
+					<LI> Risk Factor - This is your opinion on how dangerous you feel the situation was or how dangerous the location is toward cyclists.</LI>
+					<LI> Description - Please share a short paragraph explaining the situation caused by other road users or infrastructure. </LI>
+				</UL>
+			</LI>
+			<LI> If the location that you clicked on is incorrect simply click anywhere on the map to close the submission box. </LI>
+			<LI> Feel free to explore the data shared by previous users, this data has been shared for the benefit of cyclists in Leeds. </LI>
+		</UL>
+	</Div> 
+
+<Div id = 'map' ></Div>
+
+
+</body>
+</html>
